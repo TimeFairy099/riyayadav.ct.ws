@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create A Loader</title>
+    <style>
+        div{
+            display: flex;
+            justify-content: center;/* main axis */
+            align-items: center;/* cross axis */
+            /* background-color: aquamarine; */
+            height: 200px;
+            width: 200px;
+            border-bottom: 10px solid rgba(255, 0, 0, 0.956);
+            border-top:10px solid;
+            
+            border-radius: 50%;
+            font-weight:800;
+            animation:loader cubic-bezier(0.785, 0.135, 0.15, 0.86) ease-in-out 1s infinite alternate-reverse;
+            
+        }
+        @keyframes loader{
+            from{
+                transform: rotate(0deg);
+                /* background-color: rgb(205, 50, 84); */
+            }
+            /* 50%{
+                 background-color: yellow;
+            } */
+             to
+            {
+               transform: rotate(360deg);
+            }
+        }
+       /* div:hover{
+        background-color: blueviolet;
+        
+       } */
+    </style>
+</head>
+<body>
+    <div>
+        sweta
+    </div>
+</body>
+</html>
